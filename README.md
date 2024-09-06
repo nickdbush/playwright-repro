@@ -11,3 +11,7 @@ npx playwright test
 ```bash
 Error: Cannot find package '~' imported from /Users/nick/Documents/Code/playwright-repro/tests/index.spec.ts
 ```
+
+# Notes
+
+This error only occurs when importing a file like `~/package/index.ts` as `~/package`.
